@@ -1,0 +1,60 @@
+.currency-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 70px;
+    width: 400;
+    height: 250px;
+    border: 5px white solid;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.title{
+    color:black;
+}
+
+
+.amount{
+    width: 200px;
+    height: 30px;
+    margin-right: 10px;
+    margin-left:10px;
+}
+
+.result{
+    width: 200px;
+    height: 30px;
+    margin-right: 10px;
+    background-color: white;
+}
+
+.from-currency-option{
+    width: 70px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.to-currency-option{
+    width: 70px;
+    height: 30px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.exchange-button {
+    width: 80px;
+    height: 30px;
+    background-color: red; /* Initial color */
+    color: white;
+    border-radius: 5px;
+    border: none;
+    margin-top: 15px;
+    cursor: pointer; /* Shows a pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth transition effect */
+}
+
+.exchange-button:hover {
+    background-color: green; /* Changes to green on hover */
+}
