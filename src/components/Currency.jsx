@@ -4,7 +4,7 @@ import { FaArrowRight } from "react-icons/fa6";
 import axios from 'axios';
 
 let BASE_URL = "https://api.currencyapi.com/v3/latest";
-let API_KEY = "YOUR API";
+let API_KEY = "your_currencyapi_key_here";
 
 
 function Currency() {
